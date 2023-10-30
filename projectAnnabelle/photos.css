@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #991818;
+}
+
+#logo {
+    width: 175px;
+    height: auto;
+}
+
+#banner {
+    background-image: url(./Fotos_Site/svelato-il-nuovo-trailer-italiano-di-annabelle-3.jpg);
+    background-position: 100% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.fotos {
+    margin: 30px;
+    justify-content: space-between;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    color: aliceblue;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.texto_foto {
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    color: #fff;
+    border: 3px solid #991818;
+    justify-content: center;
+}
+
+.foto_card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    background-color: transparent;
+}
+
+.foto_card:hover {
+    transform: scale(1.02);
+}
+
+.foto1 {
+    background-image: url(https://ogimg.infoglobo.com.br/in/23764745-4cf-38c/FT1086A/83348236_RScena-do-filme-Annabelle-3-de-volta-para-casa.jpg);
+}
+
+.foto2 {
+    background-image: url(https://bocadoinferno.com.br/wp-content/uploads/2019/06/Annabelle-3-2019-1.jpg);
+}
+
+.foto3 {
+    background-image: url(https://br.web.img3.acsta.net/newsv7/19/07/04/21/20/0314625.jpg);
+}
+
+.foto4 {
+    background-image: url(https://i1.wp.com/judao.com.br/wp-content/uploads/2019/06/Annabelle_03_02.jpg?resize=1170%2C850);
+}
+
+.foto5 {
+    background-image: url(https://pipocamoderna.com.br/wp-content/uploads/2018/11/chilling-adventures-of-sabrina-christmas.jpg);
+}
+
+.foto6 {
+    background-image: url(https://trilhadomedo.com/wp-content/uploads/2019/06/annabelle-3-cena.jpg);
+}
+
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
